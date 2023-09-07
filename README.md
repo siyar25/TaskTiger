@@ -1,7 +1,5 @@
 <!-- omit from toc -->
-
 # TaskTiger 🐯
-
 <!-- omit from toc -->
 
 ### A school project by our hard-working team, _SOLID_.
@@ -9,25 +7,21 @@
 The server works through a free service provider, so it does not run permanently. After the first request, it starts building up for approximately 2:30 minutes, then after a refresh you can reach the website [here](https://tasktiger.onrender.com).
 
 <!-- omit from toc -->
-
 ## Table of Contents
 
-- [TaskTiger 🐯](#tasktiger-)
-    - [A school project by our hard-working team, _SOLID_.](#a-school-project-by-our-hard-working-team-solid)
-  - [Table of Contents](#table-of-contents)
-  - [SOLID](#solid)
-  - [About the Project](#about-the-project)
-  - [Used Technologies](#used-technologies)
-    - [Frontend](#frontend)
-    - [Backend](#backend)
-    - [Database](#database)
-    - [Key Features](#key-features)
-  - [Getting Started](#getting-started)
-    - [Prerequisites](#prerequisites)
-    - [Frontend setup](#frontend-setup)
-    - [Database setup](#database-setup)
-    - [Backend setup](#backend-setup)
-  - [Screenshots](#screenshots)
+- [SOLID](#solid)
+- [About the Project](#about-the-project)
+- [Used Technologies](#used-technologies)
+  - [Frontend](#frontend)
+  - [Backend](#backend)
+  - [Database](#database)
+  - [Key Features](#key-features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Frontend setup](#frontend-setup)
+  - [Database setup](#database-setup)
+  - [Backend setup](#backend-setup)
+- [Screenshots](#screenshots)
 
 ## SOLID
 
@@ -42,12 +36,13 @@ This was our last team project in [Codecool](https://codecool.com/)'s 10-month F
 The project includes authentication and authorization, profile pages, booking reservations, messaging, reviewing, along with many other features.
 
 ---
+
 **This repository is only a _cleaner_ copy of the project's original repositories!**
 
 - You can find the original backend repository [here](https://github.com/CodecoolGlobal/el-proyecte-grande-sprint-1-java-fulopdenes).
 - And the original frontend repository [here](https://github.com/miz092/TaskTigerFrontend).
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
 ---
 
@@ -72,7 +67,7 @@ The project includes authentication and authorization, profile pages, booking re
 
 - PostgreSQL
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
 ### Key Features
 
@@ -98,7 +93,7 @@ The project includes authentication and authorization, profile pages, booking re
 
 11. **Theme Customization**: Enhance user experience with both Dark and Light theme modes for the UI.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
 ## Getting Started
 
@@ -187,7 +182,7 @@ Now, you can build and run the backend application. Spring Boot will launch the 
 - The backend will run on the `8080` port
 - By updating the application.properties file with your database credentials, you ensure secure database access without exposing sensitive information as environment variables
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
 ## Screenshots
 
@@ -256,4 +251,4 @@ Now, you can build and run the backend application. Spring Boot will launch the 
 <p align="center">
     <img width="75%" src="https://i.kek.sh/YTnLynn9xoS.jpg">
 </p>
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
