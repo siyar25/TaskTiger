@@ -1,0 +1,79 @@
+.reservation-card {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 0.5rem;
+  border: 2px solid black;
+  width: 80%;
+  margin: 1rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.reservation-card-date {
+    font-weight: bold;
+    margin: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.reservation-card-info {
+  display: flex;
+  flex-direction: row;
+  margin: 1rem;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.3rem;
+
+}
+
+.reservation-card-image-div {
+  display: inline-block;
+  position: relative;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 30%;
+  align-self: center;
+}
+
+.reservation-card-image {
+  width: auto;
+  height: 100%;
+}
+
+.reservation-card-info-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.reservation-card-status {
+  text-transform: uppercase;
+  color: green;
+  font-weight: bold;
+}
+
+.reservation-card-task {
+    font-weight: bolder;
+}
+
+.reservation-card-id {
+  font-size: smaller;
+  color: lightgray;
+}
+
+.reservation-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.reservation-interaction {
+font-size: 3rem;
+align-items: center;
+cursor: pointer;
+}
+
+.reservations-empty {
+align-self: center;
+margin: 2rem;
+}

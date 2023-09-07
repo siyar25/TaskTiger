@@ -1,0 +1,122 @@
+.adminPage-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.adminPage-name {
+  font-size: 4rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 3rem;
+}
+
+.adminPage-details {
+  display: flex;
+  flex-direction: row;
+  margin: 2rem;
+  gap: 5rem;
+}
+
+.adminPage-user-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.adminPage-image-div {
+  display: inline-block;
+  position: relative;
+  width: 350px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 50%;
+  align-self: center;
+  margin-bottom: 1rem;
+  border: 0.2rem solid black;
+}
+
+.adminPage-image {
+  width: auto;
+  height: 100%;
+}
+
+.adminPage-user-info {
+  display: flex;
+  flex-direction: column;
+  background-color: bisque;
+  border-radius: 1rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  color: black;
+  margin: 1rem;
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+.adminPage-user-info-text {
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+  margin: 1rem;
+  background-color: beige;
+}
+
+.adminPage-user-info li {
+  margin: 0.2rem;
+}
+
+.adminPage-user-info-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.adminPage-user-intro {
+  background-color: bisque;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  color: black;
+  margin: 1rem;
+  width: 100%;
+}
+
+.adminPage-user-intro-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 0.2rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.adminPage-user-intro-text {
+  border-radius: 0.5rem;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: beige;
+}
+
+.adminPage-reservation-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 200%;
+  background-color: bisque;
+  border-radius: 1rem;
+  padding: 2rem;
+  color: black;
+}
+
+.adminPage-reservation-container-title {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: bolder;
+  margin-bottom: 2rem;
+}

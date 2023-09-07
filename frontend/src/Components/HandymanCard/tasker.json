@@ -1,0 +1,240 @@
+{
+  "id": 1,
+  "username": "mari123",
+  "firstName": "Mária",
+  "lastName": "Kovács",
+  "dob": "1982-04-04",
+  "gender": "OTHER",
+  "shortIntroduction": "Hi! I'm a new user at TaskTiger.",
+  "email": "vlejmaqp@example.com",
+  "phoneNumber": "84850044451",
+  "password": "hscxdjrszu",
+  "activationDateTime": null,
+  "reviews": [],
+  "reservations": [],
+  "role": null,
+  "taskerInfo": {
+    "timeSlotList": [
+      {
+        "id": 1,
+        "startTime": "2023-03-03T14:23:47.079011",
+        "endTime": "2023-03-04T13:23:47.079011",
+        "reservation": null,
+        "reserved": false
+      },
+      {
+        "id": 2,
+        "startTime": "2023-03-13T06:23:47.083026",
+        "endTime": "2023-03-13T12:23:47.083026",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 3,
+        "startTime": "2023-03-13T08:23:47.088545",
+        "endTime": "2023-03-13T16:23:47.088545",
+        "reservation": null,
+        "reserved": false
+      },
+      {
+        "id": 4,
+        "startTime": "2023-03-13T22:23:47.091583",
+        "endTime": "2023-03-14T05:23:47.091583",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 5,
+        "startTime": "2023-03-14T21:23:47.095577",
+        "endTime": "2023-03-15T15:23:47.095577",
+        "reservation": null,
+        "reserved": false
+      },
+      {
+        "id": 6,
+        "startTime": "2023-03-12T20:23:47.098583",
+        "endTime": "2023-03-13T15:23:47.098583",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 7,
+        "startTime": "2023-03-07T10:23:47.103135",
+        "endTime": "2023-03-08T07:23:47.103135",
+        "reservation": null,
+        "reserved": false
+      },
+      {
+        "id": 8,
+        "startTime": "2023-03-12T00:23:47.107131",
+        "endTime": "2023-03-12T23:23:47.107131",
+        "reservation": null,
+        "reserved": false
+      },
+      {
+        "id": 9,
+        "startTime": "2023-03-05T21:23:47.110652",
+        "endTime": "2023-03-06T06:23:47.110652",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 10,
+        "startTime": "2023-03-06T16:23:47.114688",
+        "endTime": "2023-03-06T19:23:47.114688",
+        "reservation": null,
+        "reserved": false
+      },
+      {
+        "id": 11,
+        "startTime": "2023-03-15T08:23:47.119692",
+        "endTime": "2023-03-16T05:23:47.119692",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 12,
+        "startTime": "2023-03-07T08:23:47.125257",
+        "endTime": "2023-03-07T22:23:47.125257",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 13,
+        "startTime": "2023-03-13T06:23:47.130256",
+        "endTime": "2023-03-14T02:23:47.130256",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 14,
+        "startTime": "2023-03-15T02:23:47.135846",
+        "endTime": "2023-03-15T14:23:47.135846",
+        "reservation": null,
+        "reserved": false
+      },
+      {
+        "id": 15,
+        "startTime": "2023-03-06T12:23:47.140847",
+        "endTime": "2023-03-06T19:23:47.140847",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 16,
+        "startTime": "2023-03-10T22:23:47.146407",
+        "endTime": "2023-03-11T00:23:47.146407",
+        "reservation": null,
+        "reserved": false
+      },
+      {
+        "id": 17,
+        "startTime": "2023-03-10T17:23:47.15041",
+        "endTime": "2023-03-10T17:23:47.15041",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 18,
+        "startTime": "2023-03-09T03:23:47.156995",
+        "endTime": "2023-03-09T09:23:47.156995",
+        "reservation": null,
+        "reserved": false
+      },
+      {
+        "id": 19,
+        "startTime": "2023-03-07T21:23:47.160976",
+        "endTime": "2023-03-08T15:23:47.160976",
+        "reservation": null,
+        "reserved": false
+      },
+      {
+        "id": 20,
+        "startTime": "2023-03-09T19:23:47.166072",
+        "endTime": "2023-03-09T20:23:47.166072",
+        "reservation": null,
+        "reserved": false
+      },
+      {
+        "id": 21,
+        "startTime": "2023-03-08T13:23:47.171075",
+        "endTime": "2023-03-08T17:23:47.171075",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 22,
+        "startTime": "2023-03-12T03:23:47.176792",
+        "endTime": "2023-03-12T09:23:47.176792",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 23,
+        "startTime": "2023-03-11T21:23:47.180812",
+        "endTime": "2023-03-12T02:23:47.180812",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 24,
+        "startTime": "2023-03-08T16:23:47.185423",
+        "endTime": "2023-03-09T10:23:47.185423",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 25,
+        "startTime": "2023-03-15T04:23:47.19045",
+        "endTime": "2023-03-16T02:23:47.19045",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 26,
+        "startTime": "2023-03-14T18:23:47.197497",
+        "endTime": "2023-03-14T21:23:47.197497",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 27,
+        "startTime": "2023-03-07T03:23:47.203521",
+        "endTime": "2023-03-07T16:23:47.203521",
+        "reservation": null,
+        "reserved": false
+      },
+      {
+        "id": 28,
+        "startTime": "2023-03-05T12:23:47.209141",
+        "endTime": "2023-03-05T23:23:47.209141",
+        "reservation": null,
+        "reserved": true
+      },
+      {
+        "id": 29,
+        "startTime": "2023-03-03T14:23:47.214158",
+        "endTime": "2023-03-04T12:23:47.214158",
+        "reservation": null,
+        "reserved": false
+      },
+      {
+        "id": 30,
+        "startTime": "2023-03-10T01:23:47.22157",
+        "endTime": "2023-03-10T14:23:47.22157",
+        "reservation": null,
+        "reserved": true
+      }
+    ],
+    "taskerReviewList": [],
+    "skills": [
+      "CLEANING",
+      "GARDENING"
+    ],
+    "id": 1
+  },
+  "registrationDate": "2023-03-03T00:23:46.746152",
+  "tasker": true,
+  "banned": false,
+  "activated": false
+}

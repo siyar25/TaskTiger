@@ -1,0 +1,151 @@
+.title {
+  position: relative;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  font-size: 5rem;
+  font-weight: bold;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.lds-ellipsis {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+.sub-title {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+.home-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-description {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.description-text {
+    margin: 3rem;
+    text-align: center;
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.description-text-title {
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    font-size: 1.5rem;
+}
+
+.home-form {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  margin: 1rem;
+}
+
+.home-form-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* #gender {
+  width: 80%;
+  height: 2rem;
+} */
+
+.home-form-form input,
+.home-form-form select {
+  width: 80%;
+  height: 2.4rem;
+  border-radius: 5px;
+  padding-left: 1rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  margin: 0.5rem;
+}
+
+#submit-btn {
+    margin-top: 2rem;
+    justify-self: center;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    width: 85%;
+    padding-left: 0;
+    cursor: pointer;
+}
+
+.isTasker-checkbox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+}
+
+#isTasker {
+  width: 5rem;
+}
+
+#isTasker-label {
+  font-size: 1rem;
+  color: black;
+}
+
+.form-title {
+    text-align: left;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    font-size: 2.4rem;
+}
+
+.handyman-cards {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.error-message {
+  color: rgb(168, 0, 0);
+  text-align: center;
+  align-self: center;
+  width: 60%;
+}
+
+.sign-in {
+  text-align: center;
+  align-self: center;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.sign-in:hover {
+  text-decoration: underline;
+}
+
+@media screen and (orientation: portrait) {
+  .home-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title,
+  .sub-title {
+    text-align: center;
+    margin-left: 0;
+  }
+
+  #isTasker-label {
+    text-align: left;
+  }
+}

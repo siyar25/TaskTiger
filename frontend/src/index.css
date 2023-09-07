@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --background: linear-gradient(111.98deg, #32BEB2 52.35%, #75CAC6 52.35%);
+    --background-dark: linear-gradient(111.98deg, #134b46 52.35%, #467977 52.35%);
+    --primary-text-color: white;
+    --primary-text-color-dark: rgb(255, 214, 181);
+    --primary-background-color: bisque;
+    --primary-background-color-dark: rgb(109, 98, 84);
+    background: var(--background) no-repeat;
+    color: var(--primary-text-color);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* :root:has(#isTasker:checked) {
+    background: var(--background-dark);
+} */
+
+:root:has(#nightmode-checkbox:checked) {
+    background: var(--background-dark);
+    color: var(--primary-text-color-dark);
+}
+
+:root:has(#nightmode-checkbox:checked) div {
+
+}
