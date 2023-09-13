@@ -15,7 +15,7 @@ The server works through a free service provider, so it does not run permanently
   - [Frontend](#frontend)
   - [Backend](#backend)
   - [Database](#database)
-  - [Key Features](#key-features)
+- [Key Features](#key-features)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
   - [Frontend setup](#frontend-setup)
@@ -31,7 +31,7 @@ The server works through a free service provider, so it does not run permanently
 
 ## About the Project
 
-This was our last team project in [Codecool](https://codecool.com/)'s 10-month Full-Stack developer course. It was a 4-sprint long project.<br>
+This was our last team project in [Codecool](https://codecool.com/)'s 10-month Full-Stack Developer course. It was a 4-sprint long team project.<br>
 **TaskTiger** is a platform where **clients** can connect with '**Taskers**' to complete different jobs/tasks for them, creating easier access to different service providers. All this within a few comfortable clicks/taps.<br>
 The project includes authentication and authorization, profile pages, booking reservations, messaging, reviewing, along with many other features.
 
@@ -58,7 +58,7 @@ The project includes authentication and authorization, profile pages, booking re
 ### Backend
 
 - Java 17
-- Spring Boot
+- Spring Boot 3
 - Spring Security with JSON Web Tokens
 - Spring Data JPA
 - Project Lombok
@@ -69,7 +69,7 @@ The project includes authentication and authorization, profile pages, booking re
 
 <p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
-### Key Features
+## Key Features
 
 1. **User Registration and Authentication**: Secure user sign-up and login functionality with authentication.
 
@@ -107,6 +107,7 @@ Before you begin, ensure you have the following tools and dependencies installed
 - **[Maven](https://maven.apache.org/)**: The build tool for the backend.
 - **[Java 17](https://www.oracle.com/java/technologies/javase-jdk17-downloads.html)**: Ensure you have Java 17 installed on your system.
 - **[PostgreSQL Database](https://www.postgresql.org/)**: Create a new PostgreSQL database called `tasktiger`.
+---
 
 1. Clone the repository to your local machine using **Git**:
 
@@ -118,6 +119,8 @@ Before you begin, ensure you have the following tools and dependencies installed
    ```bash
    cd TaskTiger
    ```
+
+<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
 ### Frontend setup
 
@@ -141,6 +144,8 @@ Before you begin, ensure you have the following tools and dependencies installed
 
 4. Now, your frontend should be up and running. Open your web browser and access the application at the specified at http://localhost:3000.
 
+<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
+
 ### Database setup
 
 1. Open the `application.properties` file located in the backend directory `(/backend/src/main/resources/application.properties)` and change these values:
@@ -156,6 +161,8 @@ Before you begin, ensure you have the following tools and dependencies installed
   - `${DB_DATABASE}`: The name of you database that you created in PostgreSQL (E.g. `'tasktiger'`)
   - `${DB_USER}`: The name of your user in PostgreSQL
   - `${DB_PASSWORD}`: The password of said user
+
+<p align="right">(<a href="#table-of-contents">back to top</a>)</p>
 
 ### Backend setup
 
